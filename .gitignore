@@ -1,0 +1,43 @@
+# ========== 基础规则 ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.ipynb_checkpoints/
+.DS_Store
+
+# ========== 数据集相关 ==========
+# 忽略所有图片和视频文件
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.mp4
+*.avi
+
+# 忽略特定文件夹（常见结构）
+images/
+data/
+dataset/
+datasets/
+# train/
+val/
+# test/
+masks/
+# vis/
+# runs/
+
+# 如果有标注 JSON 也要忽略（选）
+# _annotations.coco.json
+
+# ========== 环境与缓存 ==========
+.env
+*.pth
+*.pt
+*.onnx
+runs/
+output/
