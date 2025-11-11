@@ -37,7 +37,14 @@ masks/
 # ========== 环境与缓存 ==========
 .env
 *.pth
-*.pt
+# *.pt
 *.onnx
-runs/
+# runs/
 output/
+
+
+!vis/
+!vis/*.jpg
+!vis/*.png
+!vis/**/*.jpg
+!vis/**/*.png
