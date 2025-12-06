@@ -2,7 +2,6 @@
 # from google.genai import types
 # from PIL import Image
 
-# client = genai.Client(api_key="AIzaSyBAQv45mS8_egLuVNMNwolEZvDpzN0L2lI")
 
 # prompt = (
 #     "这是我的指甲从前面的视角看的样子。在原图的基础之上，给我找出并画出指甲的c-curve，并且在每张图上标 3 个点：1）L：自由缘左侧边缘 2）R：自由缘右侧边缘 3）T：自由缘最凸出的那一点（肉眼看是“最向外顶”的位置）。注意：相机位于指甲前方正对指甲前缘，我要标注指甲最前缘的横截面曲线，而不是和手指连接的那部分。原图层变成灰色，你画的curve那一层用绿色。不要用文字标记出L，R，T，画出点和弧线即可。"
@@ -33,7 +32,7 @@ from PIL import Image
 
 # ================== 配置区域 ==================
 
-API_KEY = "AIzaSyBAQv45mS8_egLuVNMNwolEZvDpzN0L2lI"  # 建议改成 os.environ["GEMINI_API_KEY"]
+API_KEY = ""  # 建议改成 os.environ["GEMINI_API_KEY"]
 
 INPUT_DIR = r"C:\Users\Jermaine Zhao\Downloads\Nail_Curve\data\Nail_Curve_Test_Set"
 OUTPUT_DIR = r"C:\Users\Jermaine Zhao\Downloads\Nail_Curve\Inference_curve_banana"
